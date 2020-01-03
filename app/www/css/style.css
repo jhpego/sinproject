@@ -1,0 +1,86 @@
+﻿/* Empty. Add your own CSS if you like */
+.pane, .view {
+  /*background: transparent;*/
+}
+
+  body {
+  
+}
+
+
+.menu {
+  background-color: rgba(124, 124, 124, 0.77);
+  background-image: url('../img/menu4.png');
+}
+
+/*
+  .menu .item-content,
+  .menu .item {
+    background-color: rgba(0, 0, 0, 0.18);
+    color: white;
+    border-color: rgba(0, 0, 0, 0.35);
+  }
+  */
+
+.cards-bg .list .item-content,
+.cards-bg .list .item {
+  background-color: white;
+  color: black;
+}
+
+    .list
+.item-content,
+ .list .item {
+    background-color: rgba(0, 0, 0, 0.18);
+    color: white;
+    border-color: rgba(0, 0, 0, 0.35);
+  }
+
+.item-divider {
+  background-color: #ef473a;
+  color: #fff;
+}
+
+.menu .item i {
+  margin-right: 5px;
+}
+
+.menu .overflow-scroll > .scroll {
+  background-color: rgba(0, 0, 0, 0.27);
+}
+
+.menu-content .pane {
+  background-color: lightgray;
+  background-image: url('../img/menu2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bar.bar-stable { background-color: #ef473a; }
+
+  .bar.bar-stable .title { color: white;  }
+
+.card h2 {
+  font-weight: bold;
+  /* font-size: larger; */
+  color: #ef473a;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /* border-bottom: 2px solid #ef473a; */
+  /* padding-bottom: 5px; */
+  
+}
+
+.card .item-body > * {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+.card .full-image {
+  border: 1px solid lightgray;
+}
+
+  .item p { 
+  font-size: 12px;
+}

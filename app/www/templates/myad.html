@@ -1,0 +1,51 @@
+﻿
+<ion-view view-title="Anúncio">
+          <ion-nav-buttons side="right">
+      <button class="button" ng-click="UpdateAd()">
+        update
+      </button>
+    </ion-nav-buttons>
+
+  <ion-content>
+    <div class="item item-body">
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Nome</span>
+        <input type="text" placeholder="Nome" ng-model="MyAd.name">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Descricao</span>
+        <input type="text" placeholder="Descricao" ng-model="MyAd.description">
+      </label>
+
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Preferência
+        </div>
+        <select ng-model="category">
+          <option value="0">Hetero</option>
+          <option value="1">Gay</option>
+          <option value="2">Outro</option>
+        </select>
+      </label>
+
+      <div class="list">
+        Gold
+        <label class="toggle toggle-assertive">
+          <input type="checkbox" ng-model="MyAd.type">
+          <div class="track">
+            <div class="handle"></div>
+          </div>
+        </label>
+      </div>
+
+      <img class="full-image" src="{{'data:image/jpeg;base64,'  + MyAd.img}}">
+
+    </div>
+    <div class="list">
+
+
+
+    </div>
+
+</ion-content>
+</ion-view>

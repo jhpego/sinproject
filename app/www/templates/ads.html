@@ -1,0 +1,19 @@
+﻿
+<ion-view view-title="Perto de Mim">
+
+  <ion-content class="cards-bg padding">
+
+    <div class="list card" ng-repeat="ad in AllAds">
+      <div class="item item-body" >
+        <img class="full-image" data-ng-src="{{'data:image/jpeg;base64,' + ad.img}}">
+        <h2>{{ad.name}}</h2>
+        <p>{{ad.description}}</p>
+        <p align="right">
+          <button class="button button-small icon-left ion-thumbsup button-calm">Like</button>
+          <button class="button icon-left ion-heart button-small button-assertive ">Hello</button>
+        </p>
+      </div>
+    </div>
+
+  </ion-content>
+  </ion-view>
